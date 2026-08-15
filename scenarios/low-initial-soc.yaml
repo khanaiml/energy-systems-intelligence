@@ -1,0 +1,4 @@
+name: Low Initial SOC
+description: Reduced starting stored energy
+analytical_purpose: tests feasibility and grid dependence
+changes: {config: {initial_soc_fraction: 0.20}}

@@ -1,0 +1,4 @@
+name: Peak Demand
+description: Elevated demand profile
+analytical_purpose: tests import and battery power constraints
+changes: {load_multiplier: 1.35}

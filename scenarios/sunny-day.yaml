@@ -1,0 +1,4 @@
+name: Sunny Day
+description: Higher irradiance reference
+analytical_purpose: tests increased PV availability and curtailment
+changes: {pv_multiplier: 1.2}

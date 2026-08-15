@@ -1,0 +1,195 @@
+{
+  "study": "Physics-aware battery SOH benchmark",
+  "dataset": "NASA Ames PCoE Li-ion Battery Aging Dataset",
+  "download_mirror": "umavanimarreddy/battery-health-nasa-dataset-new",
+  "batteries": [
+    "B0005",
+    "B0006",
+    "B0007",
+    "B0018"
+  ],
+  "data_fractions": [
+    1.0,
+    0.5,
+    0.25,
+    0.1
+  ],
+  "seeds": [
+    13,
+    42,
+    77
+  ],
+  "early_window_seconds": 600.0,
+  "feature_count": 24,
+  "benchmark_runtime_seconds": 326.419011592865,
+  "physics_weights": {
+    "monotonic": 8.0,
+    "smoothness": 0.3,
+    "anchor": 1.0,
+    "range": 4.0,
+    "residual": 0.02
+  },
+  "controlled_contrasts": [
+    {
+      "contrast": "Physics penalty on direct MLP",
+      "reference": "Data-driven MLP",
+      "candidate": "Physics-regularized MLP",
+      "mean_rmse_benefit": 0.0142047956,
+      "median_rmse_benefit": 0.0158344528,
+      "iqr_low": -0.0069416029,
+      "iqr_high": 0.035188501,
+      "worst_case_benefit": -0.0550235452,
+      "best_case_benefit": 0.0684862145,
+      "median_relative_benefit": 0.1958350172,
+      "fraction_of_settings_improved": 0.625,
+      "batteries_with_positive_mean_benefit": 4
+    },
+    {
+      "contrast": "Empirical prior/residual architecture",
+      "reference": "Data-driven MLP",
+      "candidate": "Hybrid empirical residual",
+      "mean_rmse_benefit": 0.006942769,
+      "median_rmse_benefit": -0.003427119,
+      "iqr_low": -0.0243923719,
+      "iqr_high": 0.03027732,
+      "worst_case_benefit": -0.0347940694,
+      "best_case_benefit": 0.0828228358,
+      "median_relative_benefit": -0.1158271581,
+      "fraction_of_settings_improved": 0.4375,
+      "batteries_with_positive_mean_benefit": 2
+    },
+    {
+      "contrast": "Physics penalty within hybrid",
+      "reference": "Hybrid empirical residual",
+      "candidate": "Hybrid physics residual",
+      "mean_rmse_benefit": -0.0072273955,
+      "median_rmse_benefit": -0.0050155211,
+      "iqr_low": -0.0179840421,
+      "iqr_high": 0.0027388822,
+      "worst_case_benefit": -0.0296745167,
+      "best_case_benefit": 0.0162875552,
+      "median_relative_benefit": -0.1374230894,
+      "fraction_of_settings_improved": 0.3125,
+      "batteries_with_positive_mean_benefit": 1
+    },
+    {
+      "contrast": "Hybrid physics residual vs empirical baseline",
+      "reference": "Empirical degradation",
+      "candidate": "Hybrid physics residual",
+      "mean_rmse_benefit": 0.0193208964,
+      "median_rmse_benefit": 0.0134228356,
+      "iqr_low": -0.0016356145,
+      "iqr_high": 0.0545331628,
+      "worst_case_benefit": -0.0388830589,
+      "best_case_benefit": 0.0931013026,
+      "median_relative_benefit": 0.1394152739,
+      "fraction_of_settings_improved": 0.6875,
+      "batteries_with_positive_mean_benefit": 4
+    }
+  ],
+  "benchmark_selected_model": "Physics-regularized MLP",
+  "best_low_data_model": "Empirical degradation",
+  "full_data_leaderboard": [
+    {
+      "data_fraction": 1.0,
+      "model": "Physics-regularized MLP",
+      "mean_mae": 0.0234722528,
+      "std_mae": 0.0095613196,
+      "mean_rmse": 0.0271933623,
+      "std_rmse": 0.0106060688,
+      "mean_r2": 0.9171448457,
+      "mean_mape_percent": 2.9155650023,
+      "mean_late_life_rmse": 0.026984791,
+      "mean_monotonic_violation_rate": 0.1443753714,
+      "mean_total_regeneration": 0.1996369958,
+      "mean_interval_coverage": 0.391504329,
+      "mean_ensemble_std": 0.010183816
+    },
+    {
+      "data_fraction": 1.0,
+      "model": "Data-driven MLP",
+      "mean_mae": 0.0284196483,
+      "std_mae": 0.0121432349,
+      "mean_rmse": 0.0329396082,
+      "std_rmse": 0.0128266147,
+      "mean_r2": 0.8917656433,
+      "mean_mape_percent": 3.6263762089,
+      "mean_late_life_rmse": 0.0363373926,
+      "mean_monotonic_violation_rate": 0.1989760936,
+      "mean_total_regeneration": 0.3831506968,
+      "mean_interval_coverage": 0.317775974,
+      "mean_ensemble_std": 0.0115461613
+    },
+    {
+      "data_fraction": 1.0,
+      "model": "Hybrid physics residual",
+      "mean_mae": 0.0352409096,
+      "std_mae": 0.0309691749,
+      "mean_rmse": 0.0405826228,
+      "std_rmse": 0.0318390317,
+      "mean_r2": 0.8177860577,
+      "mean_mape_percent": 4.6191522056,
+      "mean_late_life_rmse": 0.0450881737,
+      "mean_monotonic_violation_rate": 0.0725990767,
+      "mean_total_regeneration": 0.0992286205,
+      "mean_interval_coverage": 0.2616341991,
+      "mean_ensemble_std": 0.0059451878
+    },
+    {
+      "data_fraction": 1.0,
+      "model": "Hybrid empirical residual",
+      "mean_mae": 0.0360914836,
+      "std_mae": 0.0291844362,
+      "mean_rmse": 0.04107055,
+      "std_rmse": 0.0302976267,
+      "mean_r2": 0.8122892977,
+      "mean_mape_percent": 4.6774220654,
+      "mean_late_life_rmse": 0.0437192836,
+      "mean_monotonic_violation_rate": 0.1082986698,
+      "mean_total_regeneration": 0.1882857084,
+      "mean_interval_coverage": 0.182224026,
+      "mean_ensemble_std": 0.0044477734
+    },
+    {
+      "data_fraction": 1.0,
+      "model": "Empirical degradation",
+      "mean_mae": 0.055810698,
+      "std_mae": 0.0263801416,
+      "mean_rmse": 0.0614830736,
+      "std_rmse": 0.0285131008,
+      "mean_r2": 0.5569413654,
+      "mean_mape_percent": 7.1393998096,
+      "mean_late_life_rmse": 0.0742988939,
+      "mean_monotonic_violation_rate": 0.0,
+      "mean_total_regeneration": 0.0,
+      "mean_interval_coverage": null,
+      "mean_ensemble_std": null
+    }
+  ],
+  "file_manifest": [
+    {
+      "battery_id": "B0005",
+      "file": "B0005.mat",
+      "size_mb": 15.2176609039,
+      "sha256": "0eae4585baf3f200c09fe24c5ab884f1889679fc75206ca1aa19da704104f0b0"
+    },
+    {
+      "battery_id": "B0006",
+      "file": "B0006.mat",
+      "size_mb": 15.2856435776,
+      "sha256": "fa818ab4db5db8ab21e910b6dd6c3e20d3761bb9672089e1a4de8f96074616c5"
+    },
+    {
+      "battery_id": "B0007",
+      "file": "B0007.mat",
+      "size_mb": 15.3059577942,
+      "sha256": "d022afa086efaf54ab5b63f05220f5be178c8027e2fa8d68589db0e85a441a3b"
+    },
+    {
+      "battery_id": "B0018",
+      "file": "B0018.mat",
+      "size_mb": 8.1083469391,
+      "sha256": "d1e6c923a43ea1c9666b3a90bbb521757a067fd60b4d17dbfaa49c50b179da69"
+    }
+  ]
+}

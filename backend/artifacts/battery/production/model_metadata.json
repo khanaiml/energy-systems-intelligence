@@ -1,0 +1,1 @@
+{"model":"Physics-regularized MLP","role":"primary learned SOH ensemble","seeds":[13,42,77],"ensemble":"arithmetic mean; population standard deviation reported as ensemble dispersion","device":"CPU","feature_count":24,"input_signature":"forward(features: Tensor, cycle: Tensor) -> Tensor","research_use_only":true}

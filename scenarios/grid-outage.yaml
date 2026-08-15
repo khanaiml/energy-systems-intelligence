@@ -1,0 +1,4 @@
+name: Grid Outage
+description: Grid unavailable during evening
+analytical_purpose: tests energy-service preservation; any shortfall is reported
+changes: {outage_hours: [17, 18, 19, 20]}

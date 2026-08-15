@@ -1,0 +1,3 @@
+solver: scipy-highs
+risk_aversion: 0.25
+scenario_mode: expected_plus_worst_case

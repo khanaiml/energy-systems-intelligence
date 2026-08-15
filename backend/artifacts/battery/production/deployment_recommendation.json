@@ -1,0 +1,13 @@
+{
+  "benchmark_selected_model": "Physics-regularized MLP",
+  "selection_basis": "lowest mean leave-one-battery-out RMSE at 100% development data; physical consistency used as a secondary criterion",
+  "best_low_data_model_10_percent": "Empirical degradation",
+  "available_artifacts": [
+    "Empirical degradation",
+    "Data-driven MLP ensemble",
+    "Physics-regularized MLP ensemble",
+    "Hybrid empirical residual ensemble",
+    "Hybrid physics residual ensemble"
+  ],
+  "research_use_only": true
+}

@@ -1,0 +1,4 @@
+name: Degraded Battery
+description: Lower entered SOH
+analytical_purpose: tests transparent capacity derating from lower SOH
+changes: {config: {current_soh: 0.70}}

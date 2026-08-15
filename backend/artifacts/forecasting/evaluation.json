@@ -1,0 +1,56 @@
+{
+  "dataset_period": [
+    "2009-01-08 00:00:00",
+    "2009-03-31 23:00:00"
+  ],
+  "split_rows": {
+    "train": 1394,
+    "validation": 299,
+    "test": 299
+  },
+  "split": "chronological 70/15/15",
+  "features": [
+    "hour",
+    "day_of_week",
+    "weekend",
+    "month",
+    "temperature",
+    "humidity",
+    "lag_1",
+    "lag_24",
+    "lag_48",
+    "lag_168",
+    "rolling_mean_24",
+    "rolling_mean_168",
+    "rolling_std_24"
+  ],
+  "point_model": "HistGradientBoostingRegressor",
+  "point": {
+    "mae": 0.4314750653956985,
+    "rmse": 0.6098513509556445,
+    "smape_percent": 40.229608450510874
+  },
+  "baselines": {
+    "last_hour": {
+      "mae": 0.46949565217391304,
+      "rmse": 0.7115719315670964,
+      "smape_percent": 38.26015402235025
+    },
+    "previous_day": {
+      "mae": 0.5966467112597547,
+      "rmse": 0.8685608731611582,
+      "smape_percent": 49.728903042508705
+    },
+    "previous_week": {
+      "mae": 0.5367816828222134,
+      "rmse": 0.763894912697074,
+      "smape_percent": 47.31992774323984
+    }
+  },
+  "quantiles": {
+    "coverage_p10_p90": 0.782608695652174,
+    "mean_interval_width_kw": 1.2575746488638573,
+    "label": "forecast bands"
+  },
+  "source": "UCI ID 235 compact processed window; household reference profile"
+}

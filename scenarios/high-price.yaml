@@ -1,0 +1,4 @@
+name: High Price
+description: Elevated import tariff
+analytical_purpose: tests tariff-sensitive storage scheduling
+changes: {price_multiplier: 2.0}

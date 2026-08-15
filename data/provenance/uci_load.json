@@ -1,0 +1,9 @@
+{
+  "dataset": "Individual Household Electric Power Consumption",
+  "uci_id": 235,
+  "doi": "10.24432/C58K54",
+  "source_url": "https://archive.ics.uci.edu/static/public/235/individual+household+electric+power+consumption.zip",
+  "license": "CC BY 4.0",
+  "sha256": "9f84b46ade8a2d8e1286ec4b2b6c2987a45a755c59f263be3b3b3d10dfbda3ff",
+  "timezone_assumption": "Europe/Paris local civil time"
+}

@@ -1,0 +1,8 @@
+location: {name: "Sceaux, France", latitude: 48.78, longitude: 2.29, timezone: Europe/Paris}
+horizon: {hours: 24, timestep_hours: 1}
+load: {scale_factor: 10.0, note: "engineering scenario scaling; not measured community load"}
+pv: {capacity_kw: 12.0, tilt_degrees: 30, azimuth_degrees: 180, inverter_efficiency: 0.96, system_loss_fraction: 0.14}
+battery: {nominal_capacity_kwh: 20.0, max_charge_kw: 8.0, max_discharge_kw: 8.0, charge_efficiency: 0.95, discharge_efficiency: 0.95, minimum_soc_fraction: 0.10, maximum_soc_fraction: 0.95, initial_soc_fraction: 0.60, current_soh: 0.90, terminal_soc_target_fraction: 0.50}
+grid: {max_import_kw: 25.0, max_export_kw: 10.0, export_enabled: true}
+economics: {battery_throughput_cost_per_kwh: 0.03, unserved_energy_penalty_per_kwh: 100.0, curtailment_penalty_per_kwh: 0.001, reserve_shortfall_penalty: 10.0}
+assumption: "All capacities and limits are configurable engineering defaults, not measured site specifications."

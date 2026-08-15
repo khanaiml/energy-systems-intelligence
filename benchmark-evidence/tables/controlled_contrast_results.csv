@@ -1,0 +1,65 @@
+contrast,reference,candidate,holdout_battery,data_fraction,reference_rmse,candidate_rmse,rmse_benefit,relative_rmse_benefit
+Physics penalty on direct MLP,Data-driven MLP,Physics-regularized MLP,B0005,0.1,0.1452063433841002,0.13081264476530624,0.01439369861879397,0.09912582524524924
+Physics penalty on direct MLP,Data-driven MLP,Physics-regularized MLP,B0005,0.25,0.11383164118918182,0.04534542671694487,0.06848621447223695,0.60164479539056
+Physics penalty on direct MLP,Data-driven MLP,Physics-regularized MLP,B0005,0.5,0.03208037922191268,0.06040328853588027,-0.02832290931396759,-0.8828732702330859
+Physics penalty on direct MLP,Data-driven MLP,Physics-regularized MLP,B0005,1.0,0.03190558474715009,0.04075190809438209,-0.008846323347231996,-0.2772656704880539
+Physics penalty on direct MLP,Data-driven MLP,Physics-regularized MLP,B0006,0.1,0.2079404557319957,0.1848669570339964,0.023073498697999323,0.11096204736483616
+Physics penalty on direct MLP,Data-driven MLP,Physics-regularized MLP,B0006,0.25,0.09820457413110263,0.05094134634137793,0.0472632277897247,0.4812731810906131
+Physics penalty on direct MLP,Data-driven MLP,Physics-regularized MLP,B0006,0.5,0.12257809306676516,0.06864715116901192,0.05393094189775324,0.4399721071560351
+Physics penalty on direct MLP,Data-driven MLP,Physics-regularized MLP,B0006,1.0,0.051347127272378196,0.027251692290681456,0.02409543498169674,0.4692654927680579
+Physics penalty on direct MLP,Data-driven MLP,Physics-regularized MLP,B0007,0.1,0.07234591423068555,0.04118232214384211,0.03116359208684344,0.4307581487943294
+Physics penalty on direct MLP,Data-driven MLP,Physics-regularized MLP,B0007,0.25,0.06154155861474145,0.04426635157745547,0.01727520703728598,0.28070798702761385
+Physics penalty on direct MLP,Data-driven MLP,Physics-regularized MLP,B0007,0.5,0.022025601296026452,0.04878025390654261,-0.026754652610516155,-1.2147070243817975
+Physics penalty on direct MLP,Data-driven MLP,Physics-regularized MLP,B0007,1.0,0.023082178774073207,0.014865917784572292,0.008216260989500915,0.35595690813770736
+Physics penalty on direct MLP,Data-driven MLP,Physics-regularized MLP,B0018,0.1,0.039497784581157123,0.09452132980407668,-0.05502354522291956,-1.3930792778987706
+Physics penalty on direct MLP,Data-driven MLP,Physics-regularized MLP,B0018,0.25,0.08635774194054449,0.021244572318295272,0.06511316962224922,0.7539934250142655
+Physics penalty on direct MLP,Data-driven MLP,Physics-regularized MLP,B0018,0.5,0.017319081213180654,0.023625777347540147,-0.006306696134359493,-0.36414726951911247
+Physics penalty on direct MLP,Data-driven MLP,Physics-regularized MLP,B0018,1.0,0.02542354186957547,0.025903931124282863,-0.0004803892547073918,-0.01889544962585551
+Empirical prior/residual architecture,Data-driven MLP,Hybrid empirical residual,B0005,0.1,0.1452063433841002,0.10320009330592345,0.042006250078176766,0.2892866048355871
+Empirical prior/residual architecture,Data-driven MLP,Hybrid empirical residual,B0005,0.25,0.11383164118918182,0.03100880534388779,0.08282283584529403,0.7275906327981962
+Empirical prior/residual architecture,Data-driven MLP,Hybrid empirical residual,B0005,0.5,0.03208037922191268,0.04846380180677307,-0.01638342258486039,-0.5106991557527975
+Empirical prior/residual architecture,Data-driven MLP,Hybrid empirical residual,B0005,1.0,0.03190558474715009,0.02278104469578973,0.00912454005136036,0.2859856706489416
+Empirical prior/residual architecture,Data-driven MLP,Hybrid empirical residual,B0006,0.1,0.2079404557319957,0.18915030694997886,0.018790148782016847,0.09036312205756898
+Empirical prior/residual architecture,Data-driven MLP,Hybrid empirical residual,B0006,0.25,0.09820457413110263,0.12827013151547964,-0.03006555738437701,-0.3061523116452767
+Empirical prior/residual architecture,Data-driven MLP,Hybrid empirical residual,B0006,0.5,0.12257809306676516,0.045218543178010225,0.07735954988875493,0.6311042042938223
+Empirical prior/residual architecture,Data-driven MLP,Hybrid empirical residual,B0006,1.0,0.051347127272378196,0.08614119667870589,-0.03479406940632769,-0.677624460308316
+Empirical prior/residual architecture,Data-driven MLP,Hybrid empirical residual,B0007,0.1,0.07234591423068555,0.08670209437718,-0.014356180146494452,-0.19843802237010466
+Empirical prior/residual architecture,Data-driven MLP,Hybrid empirical residual,B0007,0.25,0.06154155861474145,0.03397615960221685,0.027565399012524597,0.4479151915064055
+Empirical prior/residual architecture,Data-driven MLP,Hybrid empirical residual,B0007,0.5,0.022025601296026452,0.049737888916257064,-0.027712287620230612,-1.2581852930040132
+Empirical prior/residual architecture,Data-driven MLP,Hybrid empirical residual,B0007,1.0,0.023082178774073207,0.023848883207863866,-0.0007667044337906596,-0.03321629389041262
+Empirical prior/residual architecture,Data-driven MLP,Hybrid empirical residual,B0018,0.1,0.039497784581157123,0.06278351787226506,-0.02328573329110794,-0.5895453007816714
+Empirical prior/residual architecture,Data-driven MLP,Hybrid empirical residual,B0018,0.25,0.08635774194054449,0.047944659031365806,0.038413082909178685,0.44481342432072035
+Empirical prior/residual architecture,Data-driven MLP,Hybrid empirical residual,B0018,0.5,0.017319081213180654,0.04886509494844962,-0.03154601373526897,-1.821460003967239
+Empirical prior/residual architecture,Data-driven MLP,Hybrid empirical residual,B0018,1.0,0.02542354186957547,0.031511075513053564,-0.006087533643478093,-0.23944475064519183
+Physics penalty within hybrid,Hybrid empirical residual,Hybrid physics residual,B0005,0.1,0.10320009330592345,0.11733457216103546,-0.014134478855112015,-0.13696188057904332
+Physics penalty within hybrid,Hybrid empirical residual,Hybrid physics residual,B0005,0.25,0.03100880534388779,0.02815365197704239,0.0028551533668454004,0.0920755680582253
+Physics penalty within hybrid,Hybrid empirical residual,Hybrid physics residual,B0005,0.5,0.04846380180677307,0.07626093989252639,-0.027797138085753313,-0.5735649505290878
+Physics penalty within hybrid,Hybrid empirical residual,Hybrid physics residual,B0005,1.0,0.02278104469578973,0.03292549600587403,-0.010144451310084297,-0.44530228729848986
+Physics penalty within hybrid,Hybrid empirical residual,Hybrid physics residual,B0006,0.1,0.18915030694997886,0.18645018182599993,0.002700125123978936,0.014275023749726131
+Physics penalty within hybrid,Hybrid empirical residual,Hybrid physics residual,B0006,0.25,0.12827013151547964,0.12883415673368537,-0.000564025218205727,-0.004397167224683639
+Physics penalty within hybrid,Hybrid empirical residual,Hybrid physics residual,B0006,0.5,0.045218543178010225,0.05196119882342171,-0.006742655645411488,-0.14911262441312884
+Physics penalty within hybrid,Hybrid empirical residual,Hybrid physics residual,B0006,1.0,0.08614119667870589,0.08704420510090291,-0.0009030084221970242,-0.010482886899808393
+Physics penalty within hybrid,Hybrid empirical residual,Hybrid physics residual,B0007,0.1,0.08670209437718,0.10585161619020667,-0.019149521813026663,-0.22086573514268898
+Physics penalty within hybrid,Hybrid empirical residual,Hybrid physics residual,B0007,0.25,0.03397615960221685,0.06365067627093506,-0.029674516668718204,-0.8733923143798166
+Physics penalty within hybrid,Hybrid empirical residual,Hybrid physics residual,B0007,0.5,0.049737888916257064,0.06733343779868833,-0.01759554888243127,-0.35376549479324765
+Physics penalty within hybrid,Hybrid empirical residual,Hybrid physics residual,B0007,1.0,0.023848883207863866,0.02713726973072362,-0.003288386522859753,-0.13788429815344347
+Physics penalty within hybrid,Hybrid empirical residual,Hybrid physics residual,B0018,0.1,0.06278351787226506,0.05957722338692667,0.003206294485338393,0.05106904796035314
+Physics penalty within hybrid,Hybrid empirical residual,Hybrid physics residual,B0018,0.25,0.047944659031365806,0.06729798358198673,-0.019353324550620922,-0.40365965556163014
+Physics penalty within hybrid,Hybrid empirical residual,Hybrid physics residual,B0018,0.5,0.04886509494844962,0.0402054952986887,0.008659599649760923,0.1772144238928911
+Physics penalty within hybrid,Hybrid empirical residual,Hybrid physics residual,B0018,1.0,0.031511075513053564,0.01522352030897617,0.016287555204077396,0.516883506477912
+Hybrid physics residual vs empirical baseline,Empirical degradation,Hybrid physics residual,B0005,0.1,0.0784515132671727,0.11733457216103546,-0.03888305889386276,-0.4956317255658727
+Hybrid physics residual vs empirical baseline,Empirical degradation,Hybrid physics residual,B0005,0.25,0.09157799139481503,0.02815365197704239,0.06342433941777263,0.6925718554399698
+Hybrid physics residual vs empirical baseline,Empirical degradation,Hybrid physics residual,B0005,0.5,0.04264941769514338,0.07626093989252639,-0.033611522197383004,-0.7880886542844979
+Hybrid physics residual vs empirical baseline,Empirical degradation,Hybrid physics residual,B0005,1.0,0.04551643655584782,0.03292549600587403,0.01259094054997379,0.2766240396373064
+Hybrid physics residual vs empirical baseline,Empirical degradation,Hybrid physics residual,B0006,0.1,0.21290452120081407,0.18645018182599993,0.026454339374814145,0.12425447437944306
+Hybrid physics residual vs empirical baseline,Empirical degradation,Hybrid physics residual,B0006,0.25,0.2219354593226135,0.12883415673368537,0.09310130258892813,0.41949719469385316
+Hybrid physics residual vs empirical baseline,Empirical degradation,Hybrid physics residual,B0006,0.5,0.13232632588833784,0.05196119882342171,0.08036512706491614,0.6073253113120619
+Hybrid physics residual vs empirical baseline,Empirical degradation,Hybrid physics residual,B0006,1.0,0.08760399770195144,0.08704420510090291,0.0005597926010485338,0.006390034881205701
+Hybrid physics residual vs empirical baseline,Empirical degradation,Hybrid physics residual,B0007,0.1,0.12520537077048013,0.10585161619020667,0.01935375458027347,0.15457607338387863
+Hybrid physics residual vs empirical baseline,Empirical degradation,Hybrid physics residual,B0007,0.25,0.06215478056572057,0.06365067627093506,-0.001495895705214488,-0.024067267096740428
+Hybrid physics residual vs empirical baseline,Empirical degradation,Hybrid physics residual,B0007,0.5,0.06865999657321553,0.06733343779868833,0.0013265587745271978,0.019320693864477885
+Hybrid physics residual vs empirical baseline,Empirical degradation,Hybrid physics residual,B0007,1.0,0.08333360921040642,0.02713726973072362,0.0561963394796828,0.674353841291026
+Hybrid physics residual vs empirical baseline,Empirical degradation,Hybrid physics residual,B0018,0.1,0.023150818375717364,0.05957722338692667,-0.036426405011209306,-1.5734391942453558
+Hybrid physics residual vs empirical baseline,Empirical degradation,Hybrid physics residual,B0018,0.25,0.12127675414267071,0.06729798358198673,0.05397877056068398,0.44508752680817154
+Hybrid physics residual vs empirical baseline,Empirical degradation,Hybrid physics residual,B0018,0.5,0.0381507242757536,0.0402054952986887,-0.002054771022935102,-0.05385929263316755
+Hybrid physics residual vs empirical baseline,Empirical degradation,Hybrid physics residual,B0018,1.0,0.029478251007119493,0.01522352030897617,0.014254730698143323,0.4835677223421622

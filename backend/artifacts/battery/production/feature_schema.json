@@ -1,0 +1,48 @@
+{
+  "target": {
+    "name": "soh",
+    "definition": "measured discharge capacity divided by the median of the first three valid discharge capacities"
+  },
+  "input_window_seconds": 600.0,
+  "feature_count": 24,
+  "feature_names": [
+    "cycle_index",
+    "cycle_sqrt",
+    "cycle_log1p",
+    "ambient_temperature",
+    "voltage_initial",
+    "voltage_120s",
+    "voltage_300s",
+    "voltage_600s",
+    "voltage_mean_600s",
+    "voltage_std_600s",
+    "voltage_min_600s",
+    "voltage_max_600s",
+    "voltage_drop_600s",
+    "voltage_slope_600s",
+    "current_abs_mean_600s",
+    "current_std_600s",
+    "temperature_initial",
+    "temperature_120s",
+    "temperature_300s",
+    "temperature_600s",
+    "temperature_mean_600s",
+    "temperature_max_600s",
+    "temperature_rise_600s",
+    "temperature_slope_600s"
+  ],
+  "excluded_from_inputs": [
+    "capacity_ah",
+    "reference_capacity_ah",
+    "soh",
+    "total discharge duration",
+    "battery_id"
+  ],
+  "expected_raw_signals": [
+    "Voltage_measured",
+    "Current_measured",
+    "Temperature_measured",
+    "Time",
+    "ambient_temperature"
+  ]
+}

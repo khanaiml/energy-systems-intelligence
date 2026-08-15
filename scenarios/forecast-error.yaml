@@ -1,0 +1,4 @@
+name: Forecast Error
+description: Demand higher and PV lower than base
+analytical_purpose: tests deterministic schedule sensitivity
+changes: {load_multiplier: 1.15, pv_multiplier: 0.75}
