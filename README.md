@@ -2,7 +2,7 @@
 
 Battery health, probabilistic forecasting, microgrid simulation, and uncertainty-aware dispatch.
 
-This local-first research platform connects an executed NASA battery SOH benchmark to a real UCI household load reference, Open-Meteo weather, physics-based PV availability, an hourly microgrid digital twin, and constrained operational decisions. Prediction is evidence for a decision—not the final output.
+This local-first research platform connects an executed NASA battery SOH benchmark to a real UCI household load reference, Open-Meteo weather, physics-based PV availability, an hourly microgrid digital twin, and constrained operational decisions. Prediction is evidence for a decision, not the final output.
 
 ## Evidence at a glance
 
@@ -34,5 +34,3 @@ npm run dev
 Frontend: `http://localhost:3000` · API: `http://127.0.0.1:8000` · OpenAPI: `http://127.0.0.1:8000/docs`
 
 The packaged demo works offline after installation. Full raw UCI data is excluded; acquisition scripts reproduce the committed processed window. See `docs/` and the integrated report for methods, validation, limitations, licenses, and API contracts.
-
-> Research and engineering demonstration only. Not a certified battery-management system, utility controller, grid-protection system, safety system, or trading system.
