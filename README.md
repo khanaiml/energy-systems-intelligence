@@ -1,4 +1,4 @@
-# Physics-Aware Energy Intelligence
+# Energy Systems Intelligence
 
 Battery health, probabilistic forecasting, microgrid simulation, and uncertainty-aware dispatch.
 
